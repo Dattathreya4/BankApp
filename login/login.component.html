@@ -1,0 +1,30 @@
+<span [hidden]="inboundClick">
+<div style="font-size: 24px; "><h2>ZIGMA BANK</h2></div>
+<div class="container" id="container">
+	<div class="form-container sign-in-container">
+		<form action="#">
+			<h1>Sign in</h1>
+			<br><br>
+			<label>UserName</label>
+			<input type="text" placeholder="UserName" class="dt" />
+			<label>Password</label>
+			<input type="password" placeholder="Password" class="dt" />
+			<br>
+			<input routerLink="welcomepage" class="dat" (click)="gotoWelcomepage()" type="button" value="signIn"/>
+
+			<!-- <button routerLink="welcomepage" (click)="gotoWelcomepage()" id="signIn">SIGNIN</button> -->
+		</form>
+	</div>
+	<div class="overlay-container">
+		<div class="overlay">
+			<div class="overlay-panel overlay-right">
+				<h2>Welcome to Login</h2>
+				<p>Enter your personal details and start journey with us</p>
+				<button routerLink="registerpage" (click)="gotoRegister()" class="ghost" id="signUp">SIGNUP</button>
+				<!-- <a href="registerpage"><button  class="ghost" id="signUp">Sign Up</button></a> -->
+			</div>
+		</div>
+	</div>
+</div>
+</span>
+<router-outlet></router-outlet>

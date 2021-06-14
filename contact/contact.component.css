@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap&subset=latin-ext');
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+/* --------------------------------------MASTER PAGE MENU----------------------------------------- */
+.header_main{ 
+	width: 100%;
+    float: left;
+    background-image: url(../images/header.jpeg);
+    height:101px;
+    padding-top: 20px;
+    padding-bottom: 40px; 
+}
+.title{
+    FONT-FAMILY: fangsong;
+	text-align: center;
+    font-size: 50px;
+    color: black;
+}
+.menu{
+    width: 100%;
+	float: left;
+	background-color: #072833;
+    padding-top: 49px;
+}
+
+.menu_list{
+    position: absolute;
+    margin: -33px -21px -1px 406px;
+}
+.mn{
+    text-decoration: none;
+    color: rgb(56, 178, 187);
+    padding: 0px 56px 0px 48px;
+}
+
+.touch_section{
+	width: 100%;
+    padding-top: 26px;
+    margin-bottom: 47px;
+    display: inline-block !important;
+}
+
+.touch_text{
+	width: 27%;
+	margin: 0 auto;
+	text-align: center;
+	border-bottom: 1px solid #000;
+	color: #050000;
+	font-size: 22pt;
+	font-weight: bold;
+
+}
+
+.lets_touch_main{
+	width: 100%;
+    float: left;
+    background-color: #072833;
+    padding-bottom: 43PX;
+    margin-top: -6px;
+}
+
+.input_main{
+	width: 100%;
+	float: left;
+	background-color: #ffffff;
+    padding: 40px 20px;
+}
+
+.lorem_text{
+    color: #ffffff;
+    font-size: 17px;
+    width: 71%;
+    line-height: 29px;
+    padding-top: 34px;
+    margin-left: 270px;
+}
+
+.contact_main{
+	width: 100%;
+	float: left;
+	background-color: #ffffff;
+	padding-top: 40px;
+}
+
+.contact_section_2{
+	width: 50%;
+	margin: 0 auto;
+	display: block;
+	padding-top: 40px;
+}
+
+.map_icon{
+    margin-left: 317px;
+    margin-top: 16px;
+}
+
+.cal_icon{
+    position: absolute;
+    margin: -103px 0px 0px 728px;
+}
+
+.mil_icon{
+    position: absolute;
+    margin: -103px 0px 0px 1101px;
+}
+
