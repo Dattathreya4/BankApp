@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap&subset=latin-ext');
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+.touch_section{
+	width: 100%;
+    padding-top: 57px;
+    margin-bottom: 47px;
+    display: inline-block !important;
+}
+
+.touch_text{
+	width: 27%;
+	margin: 0 auto;
+	text-align: center;
+	border-bottom: 1px solid #000;
+	color: #050000;
+	font-size: 22pt;
+	font-weight: bold;
+
+}
+
+.lets_touch_main{
+	width: 100%;
+	float: left;
+	background-color: #072833;
+	padding-top: 40px;
+	padding-bottom: 40PX;
+}
+
+.input_main{
+	width: 100%;
+	float: left;
+	background-color: #ffffff;
+    padding: 40px 20px;
+}
+
+.lorem_text{
+	width: 100%;
+	float: left;
+	color: #ffffff;
+	font-size: 17px;
+    line-height: 35px;
+    padding-top: 80px;
+}
+
+.contact_main{
+	width: 100%;
+	float: left;
+	background-color: #ffffff;
+	padding-top: 40px;
+}
+
+.contact_section_2{
+	width: 50%;
+	margin: 0 auto;
+	display: block;
+	padding-top: 40px;
+}
+
+.map_icon{
+	width: 100%;
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
